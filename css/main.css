@@ -2,7 +2,7 @@ body{
 	padding: 0;
 	margin: 0;
 	border: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 nav{
@@ -54,7 +54,7 @@ nav > ul > li > a:focus{
 }
 
 nav .btn{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	background-color: #6963df;
 	height: 30px;
 	width: 80px;
@@ -199,7 +199,7 @@ footer{
 footer .menu{
 	display: inline-block;
 	margin-left: 100px;
-	padding-top: 40px;
+	margin-top: 20px;
 }
 
 footer .menu ul{
@@ -210,6 +210,7 @@ footer .menu ul{
 footer .menu li{
 	padding-right: 10px;
 }
+
 footer .menu a{
 	text-decoration: none;
 	display: block;
@@ -231,10 +232,16 @@ footer .menu a:hover{
 	color: #292726;
 }
 
+.aside a:hover{
+	color: #6963DF;
+}
+
 .container2{
 	height: 100px;
 	margin: 100px 100px;
-	padding-right: 150px;
+	padding-top: 0px;
+	margin-top: 30px;
+	letter-spacing: 5px;
 }
 
 .container2 .box{
@@ -244,8 +251,22 @@ footer .menu a:hover{
 .box i{
 	background-color: #696b6a;
 	display: inline-block;
-	width: 48px;
-	height: 48px;
+	width: 70px;
+	height: 60px;
 	border-radius: 100px;
+	padding-top: 10px;
+	margin-right: 10px;
 
+}
+
+footer .copy{
+	color: #696B6A;
+	display: inline-block;
+	float: center;
+	margin-top: 0px;
+	font-size: small;
+}
+
+footer sup{
+	font-size: 8px;
 }
