@@ -1,0 +1,251 @@
+body{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7));
+	height: 80px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+nav > a{
+	font-family: 'Grand Hotel', cursive;
+	font-size: 36px;
+	font-weight: 500;
+	text-align: left;
+	text-decoration: none;
+	position: absolute;
+	left: 150px;
+	top: 15px;
+	color: #000000;
+}
+
+nav > a > span{
+	color: #6963DF;
+	text-align: left;
+	font-weight: 700;
+}
+
+nav > ul{
+	position: absolute;
+	right: 40px;
+	top: 10px;
+}
+
+nav > ul > li{
+	display: inline-block;
+	padding-right: 60px;
+}
+
+nav > ul > li > a{
+	text-decoration: none;
+	color: #000000;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus{
+	color: #6963df;
+}
+
+nav .btn{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #6963df;
+	height: 30px;
+	width: 80px;
+	border-radius: 4px;
+	border: 2px solid #6963DF;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+
+header{
+	background-attachment: fixed;
+	background-image: url(../img/blueflower.jpeg);
+	background-repeat: none;
+	background-size: 100% 100%;
+	background-position: 100% 50%;
+	color: #fff;
+	height: 425px;
+	text-align: center;
+	padding-top: 10%;
+	margin-top: 0%;
+}
+
+header h1{
+	font-size: 72px;
+	margin: 0;
+	padding-top: 150px;
+	padding-left: 0;
+}
+
+.quote{
+	text-align: center;
+	padding-top: 25px;
+}
+
+.quote h2{
+	font-size: 36px;
+	padding: 0;
+}
+
+.quote p{
+	display: inline-block;
+	padding-top: 0;
+	line-height: 20px;
+	font-weight: 500;
+}
+
+.container{
+	width: 800px;
+	height: 240px;
+	margin: 20px 270px;
+}
+
+.container .boxes{
+	width: 265px;
+}
+
+.container i{
+	border-radius: 100px;
+	margin: auto;
+	padding: 10px 15px;
+}
+
+.container .fa-android{
+	background-color: #1B5AE8;
+}
+
+.container .fa-apple{
+	background-color: #52DF69;
+}
+
+.container .fa-github{
+	background-color: #F76868;
+}
+
+.container .fa-linux{
+	background-color: #4FCAEE;
+}
+
+.middle{
+	text-align: center;
+}
+
+.middle a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.middle a:hover{
+	color: #6963df;
+}
+
+.middle > img{
+	margin: 0 auto;
+}
+
+.middle .boxes{
+	width: 20%;
+	display: inline-block;
+	padding-top: 50px;
+}
+
+.bottom{
+	display: inline-block;
+}
+
+.bottom > .row{
+	display: block;
+	float: left;
+	padding-top: 50px;
+	padding-left: 250px;
+}
+
+.row h3{
+	padding-bottom: 0;
+	display: inline-block;
+	float: left;
+	margin-top: 0px;
+	padding-left: 20px;
+}
+.row p{
+	width: 600px;
+	height: 100px;
+	float: right;
+	display: ;
+	padding-top: 0px;
+	padding-bottom: 100px;
+	margin-right: 198px;
+}
+
+.bottom img{
+	float: left;
+	width: 280px;
+	height: 200px;
+}
+
+footer{
+	height: 300px;
+	background-color: #292726;
+}
+
+footer .menu{
+	display: inline-block;
+	margin-left: 100px;
+	padding-top: 40px;
+}
+
+footer .menu ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+footer .menu li{
+	padding-right: 10px;
+}
+footer .menu a{
+	text-decoration: none;
+	display: block;
+	color: #696B6A;
+}
+
+footer .menu a:hover{
+	color: #6963DF;
+}
+
+.aside{
+	text-align: center;
+	display: inline-block;
+	float: right;
+}
+
+.aside a{
+	text-decoration: none;
+	color: #292726;
+}
+
+.container2{
+	height: 100px;
+	margin: 100px 100px;
+	padding-right: 150px;
+}
+
+.container2 .box{
+	display: inline-block;
+}
+
+.box i{
+	background-color: #696b6a;
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	border-radius: 100px;
+
+}
